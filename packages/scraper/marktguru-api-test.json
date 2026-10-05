@@ -1,0 +1,1606 @@
+{
+  "totalResults": 4862,
+  "skippedResults": 0,
+  "results": [
+    {
+      "id": 24556723,
+      "description": "versch. Sorten, koffeinhaltig, je 0,25-l-Dose zzgl. 0.25 Pfand auch als 4er-Pack für 3.96 zzgl. Pfand",
+      "volume": 0.25,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 0.99,
+      "oldPrice": null,
+      "referencePrice": 3.96,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 370483,
+        "name": "Energy Drink",
+        "description": "~twxat~"
+      },
+      "unit": {
+        "shortName": "l",
+        "id": 1,
+        "name": null
+      },
+      "brand": {
+        "id": 121057,
+        "name": "Red Bull",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 359,
+          "name": "Softdrinks",
+          "description": "Märkte wie beispielsweise der [toom Getränkemarkt](https://www.marktguru.de/rp/toom-getraenkemarkt-prospekte) halten eine große Auswahl an [alkoholfreien Getränken](https://www.marktguru.de/c/getraenke-alkoholfrei) bereit. Dazu zählen [Coca-Cola](https://www.marktguru.de/b/coca-cola), Säfte von [Granini](https://www.marktguru.de/b/granini) oder Energydrinks von [Red Bull](https://www.marktguru.de/b/red-bull).",
+          "parentId": 69
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.6247464503042597,
+            "width": 1,
+            "height": 1.6006493506493507
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24556553,
+      "description": "1,5/3,8% Fett, je 1-l-Pckg.",
+      "volume": 1,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 0.99,
+      "oldPrice": null,
+      "referencePrice": 0.99,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 72025,
+        "name": "Haltbare Milch",
+        "description": "~twxde~ ~twxsde~"
+      },
+      "unit": {
+        "shortName": "l",
+        "id": 1,
+        "name": null
+      },
+      "brand": {
+        "id": 124811,
+        "name": "Weihenstephan",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 162,
+          "name": "Milch",
+          "description": "Milch als eines der bekanntesten [Milcherzeugnisse](https://www.marktguru.de/c/milcherzeugnisse-fett-ei) wird kalt, warm, als Kakao oder Kaffeesahne im [Kaffee](https://www.marktguru.de/c/kaffee) verwendet. Milchprodukte von [Müller](https://www.marktguru.de/b/mueller), [Weihenstephan](https://www.marktguru.de/b/weihenstephan) oder [Bärenmarke](https://www.marktguru.de/b/baerenmarke) sind erhältlich bei [Globus](https://www.marktguru.de/rp/globus-prospekte) sowie in vielen anderen Supermärkten.",
+          "parentId": 107
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.837248322147651,
+            "width": 1,
+            "height": 1.1943887775551103
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545628,
+      "description": "oder 4 x Duo Kuchensnack je 140-g-Pckg.",
+      "volume": 0.14,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 1.99,
+      "oldPrice": null,
+      "referencePrice": 14.21,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 316805,
+        "name": "4 Kleine Zitronenkuchen",
+        "description": null
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 106999,
+        "name": "Dr. Oetker",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 189,
+          "name": "Kuchen & Feinbackwaren",
+          "description": null,
+          "parentId": 23
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.3282608695652174,
+            "width": 1,
+            "height": 0.7528641571194763
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545623,
+      "description": "versch. Sorten, je 100-g-Tafel",
+      "volume": 0.1,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 1.11,
+      "oldPrice": null,
+      "referencePrice": 11.1,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 752446,
+        "name": "Schogetten",
+        "description": null
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 124145,
+        "name": "Trumpf",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 151,
+          "name": "Schokoladen",
+          "description": "Schokolade gehört wohl zu den beliebtesten [Süßigkeiten](https://www.marktguru.de/c/suessigkeiten) überhaupt. Sie ist lecker und begeistert nicht nur Kinder. Produkte von Marken wie [Milka](https://www.marktguru.de/b/milka), [Mars](https://www.marktguru.de/b/mars) oder [Ritter Sport](https://www.marktguru.de/b/ritter-sport) sind sehr gefragt. Erhältlich sind sie unter anderem im [EDEKA Center](https://www.marktguru.de/rp/edeka-center-prospekte).",
+          "parentId": 20
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.1468812877263581,
+            "width": 1,
+            "height": 0.8719298245614036
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545618,
+      "description": "löslicher Bohnenkaffee, je 200-g-Glas",
+      "volume": 0.2,
+      "quantity": 1,
+      "isMultiProduct": false,
+      "price": 6.99,
+      "oldPrice": null,
+      "referencePrice": 34.95,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 174691,
+        "name": "Gold",
+        "description": "~twxde~"
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 113954,
+        "name": "Jacobs",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 456,
+          "name": "Kaffee",
+          "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.de/c/kaffeemaschinen) gibt es beispielsweise bei [Marktkauf](https://www.marktguru.de/rp/marktkauf-prospekte) oder [Tchibo](https://www.marktguru.de/rp/tchibo-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.de/b/dallmayr), [Jacobs](https://www.marktguru.de/b/jacobs) oder [Melitta](https://www.marktguru.de/b/melitta) sein soll.",
+          "parentId": 193
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.5808170515097691,
+            "width": 1,
+            "height": 1.7217125382262997
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545613,
+      "description": "ganze Bohnen, je 1000-g-Btl.",
+      "volume": 1,
+      "quantity": 1,
+      "isMultiProduct": false,
+      "price": 12.99,
+      "oldPrice": null,
+      "referencePrice": 12.99,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 1102919,
+        "name": "Barista Caffè Crema",
+        "description": ""
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 118117,
+        "name": "Melitta",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 456,
+          "name": "Kaffee",
+          "description": "Genuss beginnt mit dem frischen Duft von Kaffee. [Kaffeemaschinen](https://www.marktguru.de/c/kaffeemaschinen) gibt es beispielsweise bei [Marktkauf](https://www.marktguru.de/rp/marktkauf-prospekte) oder [Tchibo](https://www.marktguru.de/rp/tchibo-prospekte). Der eigene Geschmack entscheidet, ob es Kaffee von [Dallmayr](https://www.marktguru.de/b/dallmayr), [Jacobs](https://www.marktguru.de/b/jacobs) oder [Melitta](https://www.marktguru.de/b/melitta) sein soll.",
+          "parentId": 193
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.6351118760757315,
+            "width": 1,
+            "height": 1.5745257452574526
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545608,
+      "description": "je 150-g-Pckg. oder Giotto Haselnuss, je 4 x 38,7-g-Pckg.",
+      "volume": 0.15,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 2.79,
+      "oldPrice": null,
+      "referencePrice": 18.6,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 278787,
+        "name": "Raffaello",
+        "description": ""
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 109103,
+        "name": "Ferrero",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 151,
+          "name": "Schokoladen",
+          "description": "Schokolade gehört wohl zu den beliebtesten [Süßigkeiten](https://www.marktguru.de/c/suessigkeiten) überhaupt. Sie ist lecker und begeistert nicht nur Kinder. Produkte von Marken wie [Milka](https://www.marktguru.de/b/milka), [Mars](https://www.marktguru.de/b/mars) oder [Ritter Sport](https://www.marktguru.de/b/ritter-sport) sind sehr gefragt. Erhältlich sind sie unter anderem im [EDEKA Center](https://www.marktguru.de/rp/edeka-center-prospekte).",
+          "parentId": 20
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.9644859813084112,
+            "width": 1,
+            "height": 1.0368217054263567
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545603,
+      "description": "versch. Sorten, je 150-g-Btl.",
+      "volume": 0.15,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 1.49,
+      "oldPrice": null,
+      "referencePrice": 9.93,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 739465,
+        "name": "Tuc Bake Rolls",
+        "description": ""
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 119320,
+        "name": "LU",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 307,
+          "name": "Salzgebäck",
+          "description": "Leckere [Knabberartikel](https://www.marktguru.de/c/knabberartikel) von Herstellern wie [Lorenz](https://www.marktguru.de/b/lorenz), [Funny Frisch](https://www.marktguru.de/b/funny-frisch) oder [DeBeukelaer](https://www.marktguru.de/b/debeukelaer) überzeugen durch Geschmack und Qualität. Auch die Snacks von [WASGAU](https://www.marktguru.de/r/wasgau) oder [Feneberg](https://www.marktguru.de/r/feneberg) sind ideal zum Knabbern zwischendurch.",
+          "parentId": 102
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.24364406779661,
+            "width": 1,
+            "height": 0.8040885860306644
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545598,
+      "description": "HINWEIS: MIT APP 0,10 € REWE BONUS versch. Sorten, je 250-g-Tafel",
+      "volume": 0.25,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 2.59,
+      "oldPrice": null,
+      "referencePrice": 10.36,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 57359,
+        "name": "Schokolade",
+        "description": "~twxch~ ~twxalp~"
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 118352,
+        "name": "Milka",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 151,
+          "name": "Schokoladen",
+          "description": "Schokolade gehört wohl zu den beliebtesten [Süßigkeiten](https://www.marktguru.de/c/suessigkeiten) überhaupt. Sie ist lecker und begeistert nicht nur Kinder. Produkte von Marken wie [Milka](https://www.marktguru.de/b/milka), [Mars](https://www.marktguru.de/b/mars) oder [Ritter Sport](https://www.marktguru.de/b/ritter-sport) sind sehr gefragt. Erhältlich sind sie unter anderem im [EDEKA Center](https://www.marktguru.de/rp/edeka-center-prospekte).",
+          "parentId": 20
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 2.07703488372093,
+            "width": 1,
+            "height": 0.4814555633310007
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545218,
+      "description": "HINWEIS: MIT APP 0,10 € REWE BONUS je 195-g-Pckg. oder Der Körnige je 200-g-Becher",
+      "volume": 0.195,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 1.11,
+      "oldPrice": null,
+      "referencePrice": 5.69,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 3113,
+        "name": "Natur",
+        "description": null
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 120212,
+        "name": "Philadelphia",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 163,
+          "name": "Käse",
+          "description": null,
+          "parentId": 107
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.268421052631579,
+            "width": 1,
+            "height": 0.7883817427385892
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24545213,
+      "description": "HINWEIS: MIT APP 0,20 € REWE BONUS tiefgefroren, je 300-g-Pckg. Original Wagner Steinofen Pizza Salami tiefgefroren, je 320-g-Pckg.",
+      "volume": 0.3,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 1.99,
+      "oldPrice": null,
+      "referencePrice": 6.63,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 449400,
+        "name": "Flammkuchen Elsasser Art",
+        "description": null
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 124727,
+        "name": "Original Wagner",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 355,
+          "name": "Tiefkühlpizza & -flammkuchen",
+          "description": "Pizza ist ein beliebtes Produkt im Bereich [Tiefkühlkost](https://www.marktguru.de/c/tiefkuehlkost) und wird beispielsweise vertrieben von [Dermaris](https://www.marktguru.de/b/dermaris), [EDEKA Center](https://www.marktguru.de/r/edeka-center) und [Marktkauf](https://www.marktguru.de/r/marktkauf). Zwei namhafte Hersteller von Pizza sind [Dr. Oetker](https://www.marktguru.de/b/dr-oetker) und [Original Wagner](https://www.marktguru.de/b/original-wagner).",
+          "parentId": 120
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.3784172661870504,
+            "width": 1,
+            "height": 0.7254697286012526
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544558,
+      "description": "HINWEIS: MIT APP 0,10 € REWE BONUS oder Fix Air Fryer Cheesy Blumenkohl je 33-g-Btl.",
+      "volume": 0.033,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 0.49,
+      "oldPrice": null,
+      "referencePrice": 14.85,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 325063,
+        "name": "Fix Rahm-Champignons",
+        "description": null
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 115455,
+        "name": "Knorr",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 447,
+          "name": "Gewürzmischungen",
+          "description": "Kochen ohne die Gewürzmischungen von Herstellern wie [Maggi](https://www.marktguru.de/b/maggi), [Just Spices](https://www.marktguru.de/b/just-spices) oder [Ostmann](https://www.marktguru.de/b/ostmann) ist undenkbar. Zu kaufen gibt es die Gewürze zum Beispiel im [EDEKA Center](https://www.marktguru.de/r/edeka-center), bei [real](https://www.marktguru.de/r/real), [WASGAU](https://www.marktguru.de/r/wasgau) und in vielen anderen Supermärkten und Discountern.",
+          "parentId": 174
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.305084745762712,
+            "width": 1,
+            "height": 0.7662337662337663
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544428,
+      "description": "je 750-ml-Fl. oder Allzweck- und Küchenreiniger je 1,5-l-Fl.",
+      "volume": 0.75,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 2.79,
+      "oldPrice": null,
+      "referencePrice": 3.72,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 1219115,
+        "name": "Badreiniger Ozean­frische",
+        "description": null
+      },
+      "unit": {
+        "shortName": "l",
+        "id": 1,
+        "name": null
+      },
+      "brand": {
+        "id": 121749,
+        "name": "Sagrotan",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 417,
+          "name": "Reinigen",
+          "description": "Das Putzen des [Haushalts](https://www.marktguru.de/c/haushalt) ist anstrengend. Leichter geht es mit Produkten von [Vileda](https://www.marktguru.de/b/vileda), [Leifheit](https://www.marktguru.de/b/leifheit) oder [Frosch](https://www.marktguru.de/b/frosch). Im Sortiment der Supermärkte, wie beispielsweise [real](https://www.marktguru.de/rp/real-prospekte) oder [V-Markt](https://www.marktguru.de/rp/v-markt-prospekte), sind zahlreiche Hilfsmittel vorrätig.",
+          "parentId": 50
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.7738853503184714,
+            "width": 1,
+            "height": 1.2921810699588476
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544423,
+      "description": "versch. Sorten, je 550-g-Dose",
+      "volume": 0.55,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 4.79,
+      "oldPrice": null,
+      "referencePrice": 8.71,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 511,
+        "name": "Oxi Action Pulver",
+        "description": null
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 126220,
+        "name": "Vanish",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 419,
+          "name": "Waschmittel",
+          "description": "Ob Vollwaschmittel, Feinwaschmittel oder Colorwaschmittel, benötigt werden sie immer. Produkte von Marken wie [Lenor](https://www.marktguru.de/b/lenor), [Ariel](https://www.marktguru.de/b/ariel) und [Persil](https://www.marktguru.de/b/persil) gibt es als Pulver oder flüssig. Sie sind unter anderem erhältlich bei [ROSSMANN](https://www.marktguru.de/rp/rossmann-prospekte), [real](https://www.marktguru.de/rp/real-prospekte) oder in [Drogerien](https://www.marktguru.de/c/drogerie).",
+          "parentId": 50
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.1370967741935485,
+            "width": 1,
+            "height": 0.8794326241134752
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544418,
+      "description": "oder Filets Streifen mit Entenbrust je 80-g-Pckg.",
+      "volume": 0.08,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 1.89,
+      "oldPrice": null,
+      "referencePrice": 23.63,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 1263953,
+        "name": "Bonas Kaustangen mit Huhn",
+        "description": ""
+      },
+      "unit": {
+        "shortName": "kg",
+        "id": 2,
+        "name": null
+      },
+      "brand": {
+        "id": 124611,
+        "name": "Vitakraft",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 422,
+          "name": "Hundefutter",
+          "description": "Hundefutter von [Rinti](https://www.marktguru.de/b/rinti), [Pedigree](https://www.marktguru.de/b/pedigree) oder [Purina](https://www.marktguru.de/b/purina) ist bei verschiedenen Anbietern erhältlich; beispielsweise bei [ZOO und CO](https://www.marktguru.de/r/zoo-co) und im [Kiebitzmarkt](https://www.marktguru.de/r/kiebitzmarkt). [Tierbedarf](https://www.marktguru.de/c/tierbedarf) für andere Tiere ist hier ebenfalls zu bekommen.",
+          "parentId": 83
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.0857142857142856,
+            "width": 1,
+            "height": 0.9210526315789473
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544413,
+      "description": "je 40-Tab-Pckg. oder Power Spülmaschinentabs je 45-Tab-Pckg.",
+      "volume": 1,
+      "quantity": 40,
+      "isMultiProduct": true,
+      "price": 6.99,
+      "oldPrice": null,
+      "referencePrice": 0.17,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 758650,
+        "name": "Ultimate Spülmaschinen-Tabs",
+        "description": null
+      },
+      "unit": {
+        "shortName": "Stk",
+        "id": 3,
+        "name": null
+      },
+      "brand": {
+        "id": 109194,
+        "name": "Finish",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 418,
+          "name": "Spülmittel",
+          "description": "[Haushaltsartikel](https://www.marktguru.de/c/haushaltsartikel) wie [Pril](https://www.marktguru.de/b/pril) zum Abwaschen mit der Hand, [Finish](https://www.marktguru.de/b/finish) sowie [Somat](https://www.marktguru.de/b/somat) für den Geschirrspüler sind in vielen Geschäften erhältlich. Darunter Supermärkte und Discounter wie [EDEKA Neukauf](https://www.marktguru.de/r/edeka-neukauf) und [ROSSMANN](https://www.marktguru.de/r/rossmann).",
+          "parentId": 50
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.1541353383458646,
+            "width": 1,
+            "height": 0.8664495114006515
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544408,
+      "description": "Edition »Sunny« 2-lagig, je 8 x 45-Blatt-Pckg.",
+      "volume": 1,
+      "quantity": 8,
+      "isMultiProduct": false,
+      "price": 3.99,
+      "oldPrice": null,
+      "referencePrice": 0.5,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 999572,
+        "name": "Küchenpapier",
+        "description": null
+      },
+      "unit": {
+        "shortName": "Stk",
+        "id": 3,
+        "name": null
+      },
+      "brand": {
+        "id": 140383,
+        "name": "The Papermakers",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 590,
+          "name": "Küchenrolle",
+          "description": null,
+          "parentId": 415
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 1.4811320754716981,
+            "width": 1,
+            "height": 0.6751592356687898
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544403,
+      "description": "Cool Mint oder Cool Mint Mild, je 500-ml-Fl.",
+      "volume": 0.5,
+      "quantity": 1,
+      "isMultiProduct": true,
+      "price": 2.99,
+      "oldPrice": null,
+      "referencePrice": 5.98,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 103837,
+        "name": "Mundspülung",
+        "description": null
+      },
+      "unit": {
+        "shortName": "l",
+        "id": 1,
+        "name": null
+      },
+      "brand": {
+        "id": 116979,
+        "name": "Listerine",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 38,
+          "name": "Zahngesundheit",
+          "description": "Artikel zum Thema Zahngesundheit führen [Drogeriemärkte](https://www.marktguru.de/ip/drogerie-gesundheit-prospekte) wie [ROSSMANN](https://www.marktguru.de/r/rossmann) und Märkte wie [EDEKA Center](https://www.marktguru.de/r/edeka-center) und andere. Sie bieten eine breite Palette an Produkten von Herstellern, zum Beispiel [Odol-Med 3](https://www.marktguru.de/b/odol-med-3), [Colgate](https://www.marktguru.de/b/colgate) oder [Sensodyne](https://www.marktguru.de/b/sensodyne).",
+          "parentId": 10
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.7878260869565218,
+            "width": 1,
+            "height": 1.2693156732891833
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544398,
+      "description": "Creme Soft, je 250-ml-Fl.",
+      "volume": 0.25,
+      "quantity": 1,
+      "isMultiProduct": false,
+      "price": 1.99,
+      "oldPrice": null,
+      "referencePrice": 7.96,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 137303,
+        "name": "Pflegedusche",
+        "description": null
+      },
+      "unit": {
+        "shortName": "l",
+        "id": 1,
+        "name": null
+      },
+      "brand": {
+        "id": 119211,
+        "name": "Nivea",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 572,
+          "name": "Duschgel",
+          "description": "Artikel rund um die [Körperpflege](https://www.marktguru.de/c/koerperpflege) für Damen und Herren gibt es bei [ROSSMANN](https://www.marktguru.de/r/rossmann), [Müller Drogeriemarkt](https://www.marktguru.de/rp/mueller-drogeriemarkt-prospekte) und in vielen anderen Geschäften. Darunter Produkte von [Duschdas](https://www.marktguru.de/b/duschdas, [Fa](https://www.marktguru.de/b/fa), [Nivea](https://www.marktguru.de/b/nivea) sowie zahlreichen anderen Marken.",
+          "parentId": 402
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.5079365079365079,
+            "width": 1,
+            "height": 1.96875
+          }
+        ]
+      },
+      "imageType": "offer"
+    },
+    {
+      "id": 24544393,
+      "description": "je 150-ml-Dose",
+      "volume": 0.15,
+      "quantity": 1,
+      "isMultiProduct": false,
+      "price": 2.22,
+      "oldPrice": null,
+      "referencePrice": 14.8,
+      "requiresLoyalityMembership": false,
+      "leafletFlightId": 289453,
+      "validityDates": [
+        {
+          "from": "2026-08-23T22:00:00Z",
+          "to": "2026-08-29T21:59:00Z"
+        }
+      ],
+      "externalId": null,
+      "externalTrackingUrls": [
+        "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22"
+      ],
+      "externalTrackings": [
+        {
+          "type": "click",
+          "url": "https://servedby.flashtalking.com/imp/2/302017;10367284;201;pixel;SevenOneMediaDE;nnCPSevenOneMediaDEKaufDAMeinProspektA4CLEProspektnnAdgapId01984610141314295001/?gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_78}&pbMethods=&cachebuster=[CACHEBUSTER]%22",
+          "ugpctfet": 100
+        }
+      ],
+      "externalUrl": null,
+      "trackFlightImpression": null,
+      "type": "standard",
+      "industries": [
+        {
+          "id": 1009,
+          "name": "Supermarkt"
+        }
+      ],
+      "advertisers": [
+        {
+          "id": "retailers/126802",
+          "name": "REWE",
+          "industryId": 1009
+        }
+      ],
+      "product": {
+        "id": 361034,
+        "name": "Deospray Fresh Active",
+        "description": ""
+      },
+      "unit": {
+        "shortName": "l",
+        "id": 1,
+        "name": null
+      },
+      "brand": {
+        "id": 119213,
+        "name": "Nivea For Men",
+        "industryId": 1009
+      },
+      "categories": [
+        {
+          "id": 574,
+          "name": "Deo",
+          "description": "Ein schöner Tag startet mit natürlich frischer [Körperpflege](https://www.marktguru.de/c/koerperpflege). Marken wie [Axe](https://www.marktguru.de/b/axe), [Nivea](https://www.marktguru.de/b/nivea) oder [Rexona](https://www.marktguru.de/b/rexona) bieten eine große Deo-Auswahl. Diese können unter anderem bei [ROSSMANN](https://www.marktguru.de/r/rossmann) und [Marktkauf](https://www.marktguru.de/r/marktkauf) bezogen werden.",
+          "parentId": 402
+        }
+      ],
+      "images": {
+        "count": 1,
+        "isCdnSuccessfullyPurged": null,
+        "metadata": [
+          {
+            "aspectRatio": 0.33949579831932775,
+            "width": 1,
+            "height": 2.9455445544554455
+          }
+        ]
+      },
+      "imageType": "offer"
+    }
+  ]
+}

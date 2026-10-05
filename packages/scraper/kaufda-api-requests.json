@@ -1,0 +1,722 @@
+[
+  {
+    "url": "https://www.kaufda.de/Geschaefte/Lidl",
+    "method": "GET",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "url": "https://web-assets.bonial.global/fonts/figtree-regular.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://www.kaufda.de",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://web-assets.bonial.global/fonts/figtree-semibold.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://www.kaufda.de",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://web-assets.bonial.global/fonts/figtree-bold.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://www.kaufda.de",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/css/1cf14ebf8993ad48.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/css/1b8170e7b78c5947.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/8964-24140e1649f28a79.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/6331.013b4b636525322d.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/3694.139c091c65d16426.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/webpack-6ad06a11116d3094.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/framework-4731550a751206fc.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/main-f29fe862e8ed7f65.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/pages/_app-a7246f11e02c0367.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/281c3f4d-0de42278dbc21aa1.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/9621-720b5cf30387330b.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/1776-635d13b968e43e89.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/6941-ead1638eb9b8e1a4.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/9475-89864a5090efed9a.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/5130-9ac638a85f3c63a0.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/8923-366119cb69cf972c.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/2911-e9fcc41f944a240b.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/7572-e651dcac58f7b4e0.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/3014-8364c57f67a74347.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/4193-c3f847675d70f457.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/4729-031d320ada6a02ef.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/pages/Geschaefte/%5BRetailerLP%5D-19f0df23f6d1c3cb.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/RHEG3v_642u2iXy8RzW8V/_buildManifest.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/RHEG3v_642u2iXy8RzW8V/_ssgManifest.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/2b52ea0b-1b2a-4af9-9ecb-b78eca4b0eed/preview.jpg?impolicy=SEO-BROCHURE-BOX-VIEWER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/15283a07-e39a-4d9b-a6b6-cfd762357506/zoomlarge_page_1.jpg?impolicy=SEO-BROCHURE-BOX-VIEWER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/a1f6f129-612d-4556-ae17-c68a15ace908/preview.jpg?impolicy=SEO-BROCHURE-BOX-BASIC",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/ecf38849-c66f-4d15-aee9-9a80f08333fb/preview.jpg?impolicy=SEO-BROCHURE-BOX-BASIC",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://web-assets.kaufda.de/images/logo.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://publisher-media.bonial.biz/publisher-logos/c6c969cd-ef13-4e8e-bf1b-41953e4a48be.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/47314883-b0df-49db-854e-366bed604551/6470a348-c137-4dda-adcc-ce56bda482f4.jpg?impolicy=SEO-OFFER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/581967ec-2e5e-41ef-be5c-9d0740bad87a/3be0754b-2d68-461c-992a-94703bf63f8e.jpg?impolicy=SEO-OFFER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/8591fde7-4c13-427d-bf8b-f931658aeb39/faa94ff0-3c90-4a3d-b8f1-27dcf8a77d22.jpg?impolicy=SEO-OFFER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/d3beaae4-0d37-4345-8708-7e346a06292f/d06a7e3b-c8c8-4310-b5b9-47273148732b.jpg?impolicy=SEO-OFFER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/602799a4-de23-42db-83c9-640219a9d1f9/a29e6b8a-356f-4d30-95e5-1ca58211353b.jpg?impolicy=SEO-OFFER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/6f5cd483-a8a0-4b3f-a2d3-a13cbd2df547/63f0129e-3a70-413c-892a-1434f1d83a5e.jpg?impolicy=SEO-OFFER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/24ae0fe7-ffa8-4dad-b9b1-ea98d30facb0/e31aff36-30e7-4e87-91a9-50790a253756.jpg?impolicy=SEO-OFFER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://content-media.bonial.biz/89c136ab-87cd-4946-8125-304b4a16e970/4bc581c3-8a1c-4440-bf9c-b2e1a168e5de.jpg?impolicy=SEO-OFFER",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/4053.4f3014b93264861c.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://seopages.kaufda.de/_next/static/chunks/8111.34a4d8ed07b0120e.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://www.kaufda.de/sessionData?optOut=true&cb=1787381885261",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/Geschaefte/Lidl",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI1Mzc1MjYiLCJhcCI6IjIyMDIyNTQwNSIsImlkIjoiOGIzODM0MzJlMmVkM2JmNyIsInRyIjoiNDM2YTY1MDNmNTgxYjk5NDk1MTIwMTVmMjg5N2NiNzMiLCJ0aSI6MTc4NzM4MTg4NTI2Mn19",
+      "traceparent": "00-436a6503f581b9949512015f2897cb73-8b383432e2ed3bf7-01",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "bonial-api-consumer": "web-user-sdk",
+      "tracestate": "2537526@nr=0-1-2537526-220225405-8b383432e2ed3bf7----1787381885262"
+    }
+  },
+  {
+    "url": "https://www.kaufda.de/api/user/account/id?deliveryChannel=dest.kaufda&userPlatformCategory=desktop.web.browser&userPlatformOs=windows&userId=anonymous-e3e910ae-4ac2-4a09-8e4e-292e5067d228",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/Geschaefte/Lidl",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkJyb3dzZXIiLCJhYyI6IjI1Mzc1MjYiLCJhcCI6IjIyMDIyNTQwNSIsImlkIjoiZWVjMmZhMTMxMzZjZjY5ZCIsInRyIjoiY2M3NjMyNzIxMzMwY2ZhNTYwYzE1ODhlZWQ1YjgxOWMiLCJ0aSI6MTc4NzM4MTg4NTMyNX19",
+      "traceparent": "00-cc7632721330cfa560c1588eed5b819c-eec2fa13136cf69d-01",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "bonial-api-consumer": "web-user-sdk",
+      "sessiontoken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzZXNzaW9uIjoiZTNlOTEwYWUtNGFjMi00YTA5LThlNGUtMjkyZTUwNjdkMjI4IiwiaXNzIjoidXNlci1tYW5hZ2VtZW50Iiwib3B0ZWRfb3V0Ijp0cnVlLCJleHAiOjE3ODczODM2ODQsImlhdCI6MTc4NzM4MTg4NCwidXNlciI6ImUzZTkxMGFlLTRhYzItNGEwOS04ZTRlLTI5MmU1MDY3ZDIyOCJ9.HalX9fMak-Hb6anP9_0UBTkqceeUUKh71suxDwj-AkebWyNfJev-XNWZlzN51e4fN9-xc8Ur0_rvhMjt1cKI9cNP9QOzW1fWx5e27aeC6-y2mZI5lE2FHFECbCNGdQGj-pS_Qi1xOA9Wl7lXgD_bEniN6L-EtGCHjdhAWLipGsbgsxP0sXRRjqyd6D0alQXBc1ZPh-7BdOPemNZglyURt2VqTDk97u42KEnHHMQnxazS6i-XoWB6Y7rXyXHPCqTqK6OQ4tZPpXMf4YA7H6iUSw10OQvcnIfKsWsyMl7QxfrhEQHnxN_XPcFzixkBBiiA1V8JLDmMZjZBahXC0NU1QA",
+      "tracestate": "2537526@nr=0-1-2537526-220225405-eec2fa13136cf69d----1787381885325"
+    }
+  },
+  {
+    "url": "https://bam.eu01.nr-data.net/1/NRBR-a9896af9a39e4af3542?a=218637615&v=1.320.1&to=MhBSZQoZDUVQW0NfDgtac0QLDAxbHn9yYkFKMlVCGxACU1dMUhktDBFc&rst=1693&ck=0&s=0&ref=https://www.kaufda.de/Geschaefte/Lidl&ptid=7b3c05a0dab0ea57&tt=4e75b40a43e5179c&af=err,spa,xhr,stn,ins&ap=19.032495&be=200&fe=903&dc=887&perf=%7B%22timing%22:%7B%22of%22:1787381883680,%22n%22:0,%22f%22:5,%22dn%22:12,%22dne%22:12,%22c%22:12,%22s%22:38,%22ce%22:72,%22rq%22:72,%22rp%22:200,%22rpe%22:225,%22di%22:407,%22ds%22:1085,%22de%22:1087,%22dc%22:1095,%22l%22:1097,%22le%22:1103%7D,%22navigation%22:%7B%7D%7D&fp=932&fcp=932",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://tk.kaufda.de/v3s/compound-event?eventName=session_start",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzZXNzaW9uIjoiZTNlOTEwYWUtNGFjMi00YTA5LThlNGUtMjkyZTUwNjdkMjI4IiwiaXNzIjoidXNlci1tYW5hZ2VtZW50Iiwib3B0ZWRfb3V0Ijp0cnVlLCJleHAiOjE3ODczODM2ODQsImlhdCI6MTc4NzM4MTg4NCwidXNlciI6ImUzZTkxMGFlLTRhYzItNGEwOS04ZTRlLTI5MmU1MDY3ZDIyOCJ9.HalX9fMak-Hb6anP9_0UBTkqceeUUKh71suxDwj-AkebWyNfJev-XNWZlzN51e4fN9-xc8Ur0_rvhMjt1cKI9cNP9QOzW1fWx5e27aeC6-y2mZI5lE2FHFECbCNGdQGj-pS_Qi1xOA9Wl7lXgD_bEniN6L-EtGCHjdhAWLipGsbgsxP0sXRRjqyd6D0alQXBc1ZPh-7BdOPemNZglyURt2VqTDk97u42KEnHHMQnxazS6i-XoWB6Y7rXyXHPCqTqK6OQ4tZPpXMf4YA7H6iUSw10OQvcnIfKsWsyMl7QxfrhEQHnxN_XPcFzixkBBiiA1V8JLDmMZjZBahXC0NU1QA",
+      "referer": "https://www.kaufda.de/",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "bonial-api-consumer": "seo-pages",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "url": "https://tk.kaufda.de/v3s/compound-event?eventName=web_page_view",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzZXNzaW9uIjoiZTNlOTEwYWUtNGFjMi00YTA5LThlNGUtMjkyZTUwNjdkMjI4IiwiaXNzIjoidXNlci1tYW5hZ2VtZW50Iiwib3B0ZWRfb3V0Ijp0cnVlLCJleHAiOjE3ODczODM2ODQsImlhdCI6MTc4NzM4MTg4NCwidXNlciI6ImUzZTkxMGFlLTRhYzItNGEwOS04ZTRlLTI5MmU1MDY3ZDIyOCJ9.HalX9fMak-Hb6anP9_0UBTkqceeUUKh71suxDwj-AkebWyNfJev-XNWZlzN51e4fN9-xc8Ur0_rvhMjt1cKI9cNP9QOzW1fWx5e27aeC6-y2mZI5lE2FHFECbCNGdQGj-pS_Qi1xOA9Wl7lXgD_bEniN6L-EtGCHjdhAWLipGsbgsxP0sXRRjqyd6D0alQXBc1ZPh-7BdOPemNZglyURt2VqTDk97u42KEnHHMQnxazS6i-XoWB6Y7rXyXHPCqTqK6OQ4tZPpXMf4YA7H6iUSw10OQvcnIfKsWsyMl7QxfrhEQHnxN_XPcFzixkBBiiA1V8JLDmMZjZBahXC0NU1QA",
+      "referer": "https://www.kaufda.de/",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "bonial-api-consumer": "seo-pages",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "url": "https://bam.eu01.nr-data.net/events/1/NRBR-a9896af9a39e4af3542?a=218637615&v=1.320.1&to=MhBSZQoZDUVQW0NfDgtac0QLDAxbHn9yYkFKMlVCGxACU1dMUhktDBFc&rst=1870&ck=0&s=0&ref=https://www.kaufda.de/Geschaefte/Lidl&ptid=7b3c05a0dab0ea57",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://bam.eu01.nr-data.net/jserrors/1/NRBR-a9896af9a39e4af3542?a=218637615&v=1.320.1&to=MhBSZQoZDUVQW0NfDgtac0QLDAxbHn9yYkFKMlVCGxACU1dMUhktDBFc&rst=1876&ck=0&s=0&ref=https://www.kaufda.de/Geschaefte/Lidl&ptid=7b3c05a0dab0ea57",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://bam.eu01.nr-data.net/events/1/NRBR-a9896af9a39e4af3542?a=218637615&v=1.320.1&to=MhBSZQoZDUVQW0NfDgtac0QLDAxbHn9yYkFKMlVCGxACU1dMUhktDBFc&rst=1882&ck=0&s=0&ref=https://www.kaufda.de/Geschaefte/Lidl&ptid=7b3c05a0dab0ea57",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://bam.eu01.nr-data.net/events/1/NRBR-a9896af9a39e4af3542?a=218637615&v=1.320.1&to=MhBSZQoZDUVQW0NfDgtac0QLDAxbHn9yYkFKMlVCGxACU1dMUhktDBFc&rst=1887&ck=0&s=0&ref=https://www.kaufda.de/Geschaefte/Lidl&ptid=7b3c05a0dab0ea57",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://tk.kaufda.de/v3s/compound-event?eventName=ui_impression",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzZXNzaW9uIjoiZTNlOTEwYWUtNGFjMi00YTA5LThlNGUtMjkyZTUwNjdkMjI4IiwiaXNzIjoidXNlci1tYW5hZ2VtZW50Iiwib3B0ZWRfb3V0Ijp0cnVlLCJleHAiOjE3ODczODM2ODQsImlhdCI6MTc4NzM4MTg4NCwidXNlciI6ImUzZTkxMGFlLTRhYzItNGEwOS04ZTRlLTI5MmU1MDY3ZDIyOCJ9.HalX9fMak-Hb6anP9_0UBTkqceeUUKh71suxDwj-AkebWyNfJev-XNWZlzN51e4fN9-xc8Ur0_rvhMjt1cKI9cNP9QOzW1fWx5e27aeC6-y2mZI5lE2FHFECbCNGdQGj-pS_Qi1xOA9Wl7lXgD_bEniN6L-EtGCHjdhAWLipGsbgsxP0sXRRjqyd6D0alQXBc1ZPh-7BdOPemNZglyURt2VqTDk97u42KEnHHMQnxazS6i-XoWB6Y7rXyXHPCqTqK6OQ4tZPpXMf4YA7H6iUSw10OQvcnIfKsWsyMl7QxfrhEQHnxN_XPcFzixkBBiiA1V8JLDmMZjZBahXC0NU1QA",
+      "referer": "https://www.kaufda.de/",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "bonial-api-consumer": "seo-pages",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "url": "https://tk.kaufda.de/v3s/compound-event?eventName=ui_impression",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzZXNzaW9uIjoiZTNlOTEwYWUtNGFjMi00YTA5LThlNGUtMjkyZTUwNjdkMjI4IiwiaXNzIjoidXNlci1tYW5hZ2VtZW50Iiwib3B0ZWRfb3V0Ijp0cnVlLCJleHAiOjE3ODczODM2ODQsImlhdCI6MTc4NzM4MTg4NCwidXNlciI6ImUzZTkxMGFlLTRhYzItNGEwOS04ZTRlLTI5MmU1MDY3ZDIyOCJ9.HalX9fMak-Hb6anP9_0UBTkqceeUUKh71suxDwj-AkebWyNfJev-XNWZlzN51e4fN9-xc8Ur0_rvhMjt1cKI9cNP9QOzW1fWx5e27aeC6-y2mZI5lE2FHFECbCNGdQGj-pS_Qi1xOA9Wl7lXgD_bEniN6L-EtGCHjdhAWLipGsbgsxP0sXRRjqyd6D0alQXBc1ZPh-7BdOPemNZglyURt2VqTDk97u42KEnHHMQnxazS6i-XoWB6Y7rXyXHPCqTqK6OQ4tZPpXMf4YA7H6iUSw10OQvcnIfKsWsyMl7QxfrhEQHnxN_XPcFzixkBBiiA1V8JLDmMZjZBahXC0NU1QA",
+      "referer": "https://www.kaufda.de/",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "bonial-api-consumer": "seo-pages",
+      "content-type": "application/json"
+    }
+  },
+  {
+    "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/kjA2G_BKG",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/TCF/kjA2G_BKG/258.98.323/258.98.323?activeTcfVendorsListVersion=173&previousTcfVendorsListVersion=173&previousTcfPolicyVersion=5",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://api.usercentrics.eu/gvl/v3/de.json",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://uct.service.usercentrics.eu/uct?v=2&sid=kjA2G_BKG&t=24&abv=&r=https%3A%2F%2Fwww.kaufda.de%2FGeschaefte%2FLidl&cb=1787381886403",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://uct.service.usercentrics.eu/uct?v=2&sid=kjA2G_BKG&t=1&abv=&r=https%3A%2F%2Fwww.kaufda.de%2FGeschaefte%2FLidl&cb=1787381886543",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.kaufda.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://tk.kaufda.de/v3s/batch-compound-event",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzZXNzaW9uIjoiZTNlOTEwYWUtNGFjMi00YTA5LThlNGUtMjkyZTUwNjdkMjI4IiwiaXNzIjoidXNlci1tYW5hZ2VtZW50Iiwib3B0ZWRfb3V0Ijp0cnVlLCJleHAiOjE3ODczODM2ODQsImlhdCI6MTc4NzM4MTg4NCwidXNlciI6ImUzZTkxMGFlLTRhYzItNGEwOS04ZTRlLTI5MmU1MDY3ZDIyOCJ9.HalX9fMak-Hb6anP9_0UBTkqceeUUKh71suxDwj-AkebWyNfJev-XNWZlzN51e4fN9-xc8Ur0_rvhMjt1cKI9cNP9QOzW1fWx5e27aeC6-y2mZI5lE2FHFECbCNGdQGj-pS_Qi1xOA9Wl7lXgD_bEniN6L-EtGCHjdhAWLipGsbgsxP0sXRRjqyd6D0alQXBc1ZPh-7BdOPemNZglyURt2VqTDk97u42KEnHHMQnxazS6i-XoWB6Y7rXyXHPCqTqK6OQ4tZPpXMf4YA7H6iUSw10OQvcnIfKsWsyMl7QxfrhEQHnxN_XPcFzixkBBiiA1V8JLDmMZjZBahXC0NU1QA",
+      "referer": "https://www.kaufda.de/",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "bonial-api-consumer": "seo-pages",
+      "content-type": "application/json"
+    }
+  }
+]

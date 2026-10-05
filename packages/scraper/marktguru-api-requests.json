@@ -1,0 +1,145 @@
+[
+  {
+    "url": "https://www.marktguru.de/api/maintenance-mode",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/r/lidl",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://api.marktguru.de/api/v1/configurations/web",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "x-apikey": "8Kk+pmbf7TgJ9nVj2cXeA7P5zBGv8iuutVVMRfOfvNE=",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://mppx.marktguru.de/track/?verbose=1&ip=1&_=1787482558430",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://mppx.marktguru.de/engage/?verbose=1&ip=1&_=1787482558433",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://v1.api.service.cmp.usercentrics.eu/latest/core/m8tWxVJyN",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/TCF/m8tWxVJyN/77.43.277/77.43.277?activeTcfVendorsListVersion=173&previousTcfVendorsListVersion=173&previousTcfPolicyVersion=5",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://mppx.marktguru.de/engage/?verbose=1&ip=1&_=1787482558641",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://api.usercentrics.eu/gvl/v3/de.json",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://mppx.marktguru.de/engage/?verbose=1&ip=1&_=1787482558946",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://mppx.marktguru.de/engage/?verbose=1&ip=1&_=1787482559172",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "content-type": "application/x-www-form-urlencoded",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://api.marktguru.de/api/v1/advertisementcollections?as=mobiledetailed&limit=20&type=teaser&zipCode=19053",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.marktguru.de/",
+      "sec-ch-ua": "\"Chromium\";v=\"151\", \"Not=A?Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-clientkey": "FtBfWwvvo8TcBpzGO5lHmTGi68ayFC/DTT4YPQuXcTA=",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "x-apikey": "8Kk+pmbf7TgJ9nVj2cXeA7P5zBGv8iuutVVMRfOfvNE=",
+      "accept": "application/json",
+      "content-type": "application/json"
+    }
+  }
+]

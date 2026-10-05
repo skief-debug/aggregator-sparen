@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "apk": {
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://xjufavghsfvhltqonhkp.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhqdWZhdmdoc2Z2aGx0cW9uaGtwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODczMDI1MjgsImV4cCI6MjEwMjg3ODUyOH0._jnQYf-4swWlZneAdPxjj7emqspV2UO5j9rd3y1tQLY"
+      },
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  }
+}
