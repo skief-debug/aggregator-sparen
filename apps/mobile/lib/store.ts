@@ -124,9 +124,9 @@ function buildDealsQuery(filters: FilterState, withCount = false) {
     q = q.eq('category', filters.activeCategory);
   }
 
-  // Search query / Subcategory filter (supports multiple comma-separated terms)
+  // Search query / Subcategory filter (supports multiple space or comma-separated terms)
   if (filters.searchQuery) {
-    const terms = filters.searchQuery.split(',').map(t => t.trim()).filter(Boolean);
+    const terms = filters.searchQuery.split(/[\s,]+/).map(t => t.trim()).filter(Boolean);
     if (terms.length > 0) {
       const orClauses = terms.map(term => {
         const t = `%${term}%`;
@@ -365,7 +365,7 @@ export const selectFilteredDeals = (deals: Deal[], filters: FilterState) => {
     if (filters?.minDiscountPct && filters.minDiscountPct > 0 && (deal.discount_pct ?? 0) < filters.minDiscountPct) return false;
     if (filters?.activeTiming && filters.activeTiming !== 'ALLE' && deal.timing_tag !== filters.activeTiming) return false;
     if (filters?.searchQuery) {
-      const terms = filters.searchQuery.toLowerCase().split(',').map(t => t.trim()).filter(Boolean);
+      const terms = filters.searchQuery.toLowerCase().split(/[\s,]+/).map(t => t.trim()).filter(Boolean);
       if (terms.length > 0) {
         const matchesAny = terms.some(term => {
           return (
