@@ -94,7 +94,7 @@ type SparGatorStore = {
 const DEAL_COLUMNS = [
   'id', 'store_id', 'title', 'brand', 'price', 'original_price',
   'discount_pct', 'image_url', 'valid_from', 'valid_to', 'timing_tag',
-  'category', 'price_per_unit_label', 'is_app_exclusive', 'is_non_food',
+  'category', 'tags', 'price_per_unit_label', 'is_app_exclusive', 'is_non_food',
   'store_name', 'store_slug', 'store_color', 'store_text_color',
 ].join(', ');
 
@@ -124,9 +124,16 @@ function buildDealsQuery(filters: FilterState, withCount = false) {
     q = q.eq('category', filters.activeCategory);
   }
 
-  // Search query / Subcategory filter
+  // Search query / Subcategory filter (supports multiple comma-separated terms)
   if (filters.searchQuery) {
-    q = q.ilike('title', `%${filters.searchQuery}%`);
+    const terms = filters.searchQuery.split(',').map(t => t.trim()).filter(Boolean);
+    if (terms.length > 0) {
+      const orClauses = terms.map(term => {
+        const t = `%${term}%`;
+        return `title.ilike.${t},brand.ilike.${t},category.ilike.${t}`;
+      });
+      q = q.or(orClauses.join(','));
+    }
   }
 
   // Timing filter
@@ -358,7 +365,18 @@ export const selectFilteredDeals = (deals: Deal[], filters: FilterState) => {
     if (filters?.minDiscountPct && filters.minDiscountPct > 0 && (deal.discount_pct ?? 0) < filters.minDiscountPct) return false;
     if (filters?.activeTiming && filters.activeTiming !== 'ALLE' && deal.timing_tag !== filters.activeTiming) return false;
     if (filters?.searchQuery) {
-      if (!deal.title?.toLowerCase().includes(filters.searchQuery.toLowerCase())) return false;
+      const terms = filters.searchQuery.toLowerCase().split(',').map(t => t.trim()).filter(Boolean);
+      if (terms.length > 0) {
+        const matchesAny = terms.some(term => {
+          return (
+            deal.title?.toLowerCase().includes(term) ||
+            deal.brand?.toLowerCase().includes(term) ||
+            deal.category?.toLowerCase().includes(term) ||
+            deal.tags?.some(tag => tag.toLowerCase().includes(term))
+          );
+        });
+        if (!matchesAny) return false;
+      }
     }
     if (activeLifestyleTags.length > 0) {
       const dealTags = deal.tags ?? [];

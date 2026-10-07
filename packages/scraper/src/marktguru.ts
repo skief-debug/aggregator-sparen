@@ -17,6 +17,26 @@ const LIDL_STORE_ID = "9720865a-3cbc-4150-88e6-cbd093ffe961";
 const MARKTGURU_API_KEY = "8Kk+pmbf7TgJ9nVj2cXeA7P5zBGv8iuutVVMRfOfvNE=";
 const MARKTGURU_CLIENT_KEY = "FtBfWwvvo8TcBpzGO5lHmTGi68ayFC/DTT4YPQuXcTA=";
 
+const CATEGORY_MAPPING: Record<string, string> = {
+  "Softdrinks": "Getränke", "Kaffee": "Getränke", "Säfte": "Getränke", "Bier": "Getränke", "Wein": "Getränke", "Spirituosen": "Getränke", "Wasser": "Getränke", "Energy": "Getränke",
+  "Schokoladen": "Süßes & Snacks", "Salzgebäck": "Süßes & Snacks", "Kuchen & Feinbackwaren": "Süßes & Snacks", "Süßwaren": "Süßes & Snacks", "Knabberartikel": "Süßes & Snacks", "Chips": "Süßes & Snacks",
+  "Käse": "Milch & Käse", "Milch": "Milch & Käse", "Joghurt": "Milch & Käse", "Butter": "Milch & Käse", "Sahne": "Milch & Käse", "Milcherzeugnisse": "Milch & Käse",
+  "Fleisch": "Fleisch & Fisch", "Wurstwaren": "Fleisch & Fisch", "Geflügel": "Fleisch & Fisch", "Fisch": "Fleisch & Fisch", "Aufschnitt": "Fleisch & Fisch",
+  "Obst": "Obst & Gemüse", "Gemüse": "Obst & Gemüse",
+  "Drogerie": "Haushalt & Pflege", "Reinigungsmittel": "Haushalt & Pflege", "Körperpflege": "Haushalt & Pflege", "Waschmittel": "Haushalt & Pflege", "Hygiene": "Haushalt & Pflege",
+  "Brot": "Brot & Backwaren", "Backwaren": "Brot & Backwaren", "Brötchen": "Brot & Backwaren",
+  "Tiefkühlwaren": "Tiefkühl", "Tiefkühl": "Tiefkühl", "Eis": "Tiefkühl", "Pizza": "Tiefkühl"
+};
+
+function mapCategory(rawCat: string): string {
+  if (!rawCat) return "Sonstiges";
+  if (CATEGORY_MAPPING[rawCat]) return CATEGORY_MAPPING[rawCat];
+  for (const [key, val] of Object.entries(CATEGORY_MAPPING)) {
+    if (rawCat.toLowerCase().includes(key.toLowerCase())) return val;
+  }
+  return "Sonstiges";
+}
+
 async function runScraper() {
   console.log("🚀 Starte Marktguru API Scraper...");
   
@@ -62,6 +82,15 @@ async function runScraper() {
         }
 
         const brandName = offer.brand ? (typeof offer.brand === 'string' ? offer.brand : offer.brand.name) : null;
+        
+        let rawCategory = "Sonstiges";
+        if (offer.categories && offer.categories.length > 0) {
+          rawCategory = offer.categories[0].name;
+        }
+
+        const tags = [rawCategory];
+        if (brandName) tags.push(brandName);
+
         return {
           store_id: LIDL_STORE_ID,
           title: offer.description ? offer.description.substring(0, 255) : "Unbekanntes Angebot",
@@ -71,6 +100,8 @@ async function runScraper() {
           image_url: imageUrl,
           valid_from: validFrom,
           valid_to: validTo,
+          category: mapCategory(rawCategory),
+          tags: tags,
         };
       });
 
