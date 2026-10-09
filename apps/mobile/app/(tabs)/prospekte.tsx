@@ -156,8 +156,19 @@ export default function BrochuresScreen() {
     }
   }, []);
 
+  const getStoreSlug = (name: string) => {
+    const l = name.toLowerCase();
+    if (l.includes('aldi')) return 'aldi';
+    if (l.includes('netto')) return 'netto';
+    if (l.includes('kaufland')) return 'kaufland';
+    if (l.includes('penny')) return 'penny';
+    if (l.includes('lidl')) return 'lidl';
+    return l;
+  };
+
   const filteredBrochures = brochures.filter((b) => {
-    if (showOnlyFavorites && !favoriteStores.includes(b.storeName)) return false;
+    const slug = getStoreSlug(b.storeName);
+    if (showOnlyFavorites && !favoriteStores.includes(slug)) return false;
     if (searchQuery.trim().length > 0) {
       if (!b.storeName.toLowerCase().includes(searchQuery.toLowerCase())) return false;
     }
@@ -165,7 +176,8 @@ export default function BrochuresScreen() {
   });
 
   const renderBrochureCard = ({ item }: { item: ApiBrochure }) => {
-    const isFav = favoriteStores.includes(item.storeName);
+    const slug = getStoreSlug(item.storeName);
+    const isFav = favoriteStores.includes(slug);
 
     return (
       <TouchableOpacity
@@ -183,7 +195,7 @@ export default function BrochuresScreen() {
           <TouchableOpacity 
             onPress={() => {
               Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-              toggleFavoriteStore(item.storeName);
+              toggleFavoriteStore(slug);
             }}
             hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
           >

@@ -13,6 +13,7 @@ import {
   Pressable,
   Image,
   AppState,
+  TextInput,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Image as ExpoImage } from 'expo-image';
@@ -371,10 +372,19 @@ export default function MainHomeScreen() {
     filters,
     setFilter,
     totalCount,
+    favoriteStores,
   } = useSparGatorStore();
 
   const [discountCycle, setDiscountCycle] = useState(0);
   const DISCOUNT_STEPS = [0, 20, 40];
+
+  const sortedStores = useMemo(() => {
+    return [...STORES].sort((a, b) => {
+      const aFav = favoriteStores.includes(a.id) ? 1 : 0;
+      const bFav = favoriteStores.includes(b.id) ? 1 : 0;
+      return bFav - aFav; // favorites first
+    });
+  }, [favoriteStores]);
 
   useEffect(() => {
     fetchDeals();
@@ -546,6 +556,26 @@ export default function MainHomeScreen() {
         </View>
       </View>
 
+      {/* SEARCH BAR */}
+      <View style={{ paddingHorizontal: 16, marginBottom: 12 }}>
+        <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: '#F3F4F6', borderRadius: 12, paddingHorizontal: 12, height: 48 }}>
+          <Ionicons name="search" size={20} color="#9CA3AF" />
+          <TextInput
+            style={{ flex: 1, marginLeft: 8, fontSize: 16, color: '#111827' }}
+            placeholder="Produkt, Marke oder Kategorie suchen..."
+            placeholderTextColor="#9CA3AF"
+            value={filters.searchQuery}
+            onChangeText={(text) => setFilter('searchQuery', text)}
+            returnKeyType="search"
+          />
+          {filters.searchQuery.length > 0 && (
+            <TouchableOpacity onPress={() => setFilter('searchQuery', '')} style={{ padding: 4 }}>
+              <Ionicons name="close-circle" size={20} color="#9CA3AF" />
+            </TouchableOpacity>
+          )}
+        </View>
+      </View>
+
       {/* STORE SELECTOR */}
       <View style={styles.storeSelectorContainer}>
         <ScrollView
@@ -553,8 +583,9 @@ export default function MainHomeScreen() {
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={styles.storeScrollTrack}
         >
-          {STORES.map((store) => {
+          {sortedStores.map((store) => {
             const isActive = filters.activeStores.includes(store.id);
+            const isFav = favoriteStores.includes(store.id);
             return (
               <TouchableOpacity
                 key={store.id}
@@ -563,7 +594,7 @@ export default function MainHomeScreen() {
                 activeOpacity={0.8}
               >
                 <Text style={[styles.storePillText, isActive && styles.storePillTextActive]}>
-                  {store.name}
+                  {store.name} {isFav && '❤️'}
                 </Text>
               </TouchableOpacity>
             );
