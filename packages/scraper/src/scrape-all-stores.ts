@@ -104,10 +104,22 @@ const CATEGORY_MAP: Record<string, string> = {
   "Heckenscheren": "Non-Food", "Rasenmäher": "Non-Food", "Batterien": "Non-Food",
   "Computerzubehör": "Non-Food", "Haustechnik": "Non-Food", "Matratzen": "Non-Food",
   "Holzspalter": "Non-Food", "Gartenbewässerung": "Non-Food",
-  "Türbeschläge": "Non-Food", "Aufbewahrungsbehälter": "Non-Food",
+  "Aufbewahrungsbehälter": "Non-Food",
   "Wäschenständer": "Non-Food", "Schreibwaren": "Non-Food",
   "Reinigungsgeräte (Non-Food)": "Non-Food",
   "Pflanzen": "Non-Food", "Blumen": "Non-Food", "Zimmerpflanzen": "Non-Food",
+  
+  // Neu hinzugefügt aus Marktguru/Aldi
+  "Tiefkühlpizza & -flammkuchen": "Tiefkühl",
+  "Tiefkühlpizza": "Tiefkühl",
+  "Gewürzmischungen": "Sonstiges",
+  "Hundefutter": "Non-Food", "Katzenfutter": "Non-Food", "Tiernahrung": "Non-Food",
+  "Spülmittel": "Haushalt & Pflege",
+  "Zahngesundheit": "Haushalt & Pflege",
+  "Duschgel": "Haushalt & Pflege",
+  "Deo": "Haushalt & Pflege",
+  "Steaks": "Fleisch & Fisch", "Rindfleisch": "Fleisch & Fisch", "Schweinefleisch": "Fleisch & Fisch",
+  "Geflügelfleisch": "Fleisch & Fisch",
 };
 
 const NON_FOOD_CATS = new Set([
@@ -125,28 +137,23 @@ const ALCOHOL_CATS = new Set([
   "Weinbrand", "Whiskey", "Weißer Rum", "Brauner Rum", "Spirituosen",
 ]);
 
-function refineCategoryByTitle(title: string, currentCat: string): string {
-  const t = title.toLowerCase();
+function normalizeCategory(rawCat: string | null): string {
+  if (!rawCat) return "Sonstiges";
   
-  // Only override if we find very strong signals
-  if (t.match(/\b(fleisch|hähnchen|hühner|schnitzel|wurst|salami|schinken|rind|schwein|pute|hackfleisch|steak|lachs|fisch|garnelen)\b/)) return "Fleisch & Fisch";
-  if (t.match(/\b(käse|gouda|camembert|brie|mozzarella|milch|joghurt|quark|butter|sahne|emmentaler)\b/)) return "Milch & Käse";
-  if (t.match(/\b(cola|pepsi|fanta|sprite|energy|red bull|monster|bier|pils|weizen|wein|saft|wasser|kaffee|tee)\b/)) return "Getränke";
-  if (t.match(/\b(schokolade|milka|ritter sport|chips|pringles|funny-frisch|gummibärchen|haribo|nüsse|protein|riegel|eis)\b/)) return "Süßes & Snacks";
-  if (t.match(/\b(apfel|äpfel|banane|bananen|tomate|tomaten|kartoffel|kartoffeln|paprika|gurke|salat|zwiebel|beeren|erdbeeren)\b/)) return "Obst & Gemüse";
-  if (t.match(/\b(brot|brötchen|toast|croissant|kuchen|baguette)\b/)) return "Brot & Backwaren";
-  if (t.match(/\b(pizza|tiefkühl|pommes)\b/)) return "Tiefkühl";
-  if (t.match(/\b(waschmittel|duschgel|shampoo|toilettenpapier|deo|zahnpasta|seife|putzmittel)\b/)) return "Haushalt & Pflege";
-  
-  return currentCat;
-}
-
-function normalizeCategory(rawCat: string | null, title: string): string {
-  let cat = "Sonstiges";
-  if (rawCat && CATEGORY_MAP[rawCat]) {
-    cat = CATEGORY_MAP[rawCat];
+  // 1. Exact Match
+  if (CATEGORY_MAP[rawCat]) {
+    return CATEGORY_MAP[rawCat];
   }
-  return refineCategoryByTitle(title, cat);
+
+  // 2. Exact Match (Case-Insensitive)
+  const lowerRaw = rawCat.toLowerCase().trim();
+  for (const [key, mapped] of Object.entries(CATEGORY_MAP)) {
+    if (key.toLowerCase() === lowerRaw) {
+      return mapped;
+    }
+  }
+
+  return "Sonstiges";
 }
 
 // ─── timing_tag ────────────────────────────────────────────────────────────
@@ -220,7 +227,7 @@ function mapMGOfferToDb(offer: any, storeId: string): object {
   else if (productName) title = productName;
 
   const rawCat = offer.categories?.[0]?.name || null;
-  const normalCat = normalizeCategory(rawCat, title);
+  const normalCat = normalizeCategory(rawCat);
   const isNonFood = NON_FOOD_CATS.has(rawCat || "") || normalCat === "Non-Food";
   const isAlcohol = ALCOHOL_CATS.has(rawCat || "");
 
@@ -325,7 +332,7 @@ function mapAldiItemToDb(item: any, storeId: string): object | null {
 
   // Aldi categories come as array of objects
   const rawCat = item.categories?.[0]?.name || null;
-  const normalCat = normalizeCategory(rawCat, title);
+  const normalCat = normalizeCategory(rawCat);
   const isNonFood = NON_FOOD_CATS.has(rawCat || "") || normalCat === "Non-Food";
   const isAlcohol = ALCOHOL_CATS.has(rawCat || "");
 
