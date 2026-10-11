@@ -6,7 +6,7 @@ import GithubUpdater from '../components/GithubUpdater';
 export default function RootLayout() {
   return (
     <>
-      <StatusBar style="light" backgroundColor={Colors.background} />
+      <StatusBar style="light" />
       <Stack
         screenOptions={{
           headerStyle: { backgroundColor: Colors.surface },

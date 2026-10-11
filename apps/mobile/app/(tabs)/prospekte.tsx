@@ -12,6 +12,7 @@ import {
   NativeScrollEvent,
   ActivityIndicator,
   TextInput,
+  Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Image } from 'expo-image';
@@ -52,7 +53,9 @@ export default function BrochuresScreen() {
   const [searchQuery, setSearchQuery] = useState("");
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);
   
-  const { favoriteStores, toggleFavoriteStore } = useSparGatorStore();
+  const { favoriteStores, toggleFavoriteStore, userZipCode, setUserZipCode } = useSparGatorStore();
+  const [isEditingZip, setIsEditingZip] = useState(false);
+  const [tempZip, setTempZip] = useState(userZipCode || '59329');
   
   const [activeBrochure, setActiveBrochure] = useState<ApiBrochure | null>(null);
   const [currentPageIndex, setCurrentPageIndex] = useState<number>(0);
@@ -61,68 +64,71 @@ export default function BrochuresScreen() {
   const fetchBrochures = async (refresh = false) => {
     if (refresh) setIsRefreshing(true);
     else setIsLoading(true);
-    
+
     try {
-      const url = `https://api.marktguru.de/api/v1/leafletflights?limit=200&zipCode=19053`;
-      const response = await fetch(url, {
+      const activeZip = userZipCode || '59329';
+      const res = await fetch(`https://api.marktguru.de/api/v1/leafletflights?limit=200&zipCode=${activeZip}`, {
         headers: {
-          "x-apikey": MARKTGURU_API_KEY,
-          "x-clientkey": MARKTGURU_CLIENT_KEY,
-          "origin": "https://www.marktguru.de",
-          "user-agent": "Mozilla/5.0"
-        }
+          'x-apikey': MARKTGURU_API_KEY,
+          'x-clientkey': MARKTGURU_CLIENT_KEY,
+          origin: 'https://www.marktguru.de',
+          'user-agent': 'Mozilla/5.0',
+        },
       });
-      
-      if (!response.ok) throw new Error("Netzwerkfehler");
-      const data = await response.json();
-      
+
+      const data = res.ok ? await res.json() : { results: [] };
+      const allFlights: any[] = data.results || [];
+
       const now = new Date();
 
-      const mapped = (data.results || []).map((flight: any) => {
-        const fromDate = new Date(flight.validFrom);
-        const toDate = new Date(flight.validTo);
-        const fromStr = `${fromDate.getDate().toString().padStart(2, '0')}.${(fromDate.getMonth() + 1).toString().padStart(2, '0')}.`;
-        const toStr = `${toDate.getDate().toString().padStart(2, '0')}.${(toDate.getMonth() + 1).toString().padStart(2, '0')}.`;
-        
-        let badge = undefined;
-        let badgeColor = undefined;
-        
-        if (now >= fromDate && now <= toDate) {
-          badge = "AKTUELL";
-          badgeColor = "#10B981"; // Green
-        } else if (now < fromDate) {
-          badge = "DEMNÄCHST";
-          badgeColor = "#F59E0B"; // Orange
-        }
-        
-        // Generate pages array dynamically
-        const pages: ApiBrochurePage[] = [];
-        const pageCount = flight.pageCount || 10;
-        for (let i = 0; i < pageCount; i++) {
-          pages.push({
-            id: `${flight.id}-page-${i}`,
-            pageNumber: i,
-            // Fixed image URL using /images/pages/ prefix which Marktguru expects
-            imageUrl: `https://cdn.marktguru.de/api/v1/leaflets/${flight.mainLeafletId}/images/pages/${i}/large.webp`
-          });
-        }
-        
-        return {
-          id: flight.id,
-          storeName: flight.advertiser?.name || "Unbekannt",
-          title: "Aktueller Prospekt",
-          validFrom: fromStr,
-          validTo: toStr,
-          coverImageUrl: `https://cdn.marktguru.de/api/v1/leaflets/${flight.mainLeafletId}/images/pages/${flight.mainLeafletPageIndex}/medium.webp`,
-          badge,
-          badgeColor,
-          pages
-        };
-      });
-      
+      const mapped: ApiBrochure[] = allFlights
+        .map((flight: any) => {
+          const fromDate = new Date(flight.validFrom);
+          const toDate = new Date(flight.validTo);
+          const fromStr = `${fromDate.getDate().toString().padStart(2, '0')}.${(fromDate.getMonth() + 1).toString().padStart(2, '0')}.`;
+          const toStr = `${toDate.getDate().toString().padStart(2, '0')}.${(toDate.getMonth() + 1).toString().padStart(2, '0')}.`;
+
+          let badge = undefined;
+          let badgeColor = undefined;
+
+          if (now >= fromDate && now <= toDate) {
+            badge = 'AKTUELL';
+            badgeColor = '#10B981'; // Green
+          } else if (now < fromDate) {
+            badge = 'DEMNÄCHST';
+            badgeColor = '#F59E0B'; // Orange
+          }
+
+          // Generate pages array dynamically
+          const pages: ApiBrochurePage[] = [];
+          const pageCount = flight.pageCount || 10;
+          for (let i = 0; i < pageCount; i++) {
+            pages.push({
+              id: `${flight.id}-page-${i}`,
+              pageNumber: i,
+              imageUrl: `https://cdn.marktguru.de/api/v1/leaflets/${flight.mainLeafletId}/images/pages/${i}/large.webp`,
+            });
+          }
+
+          const storeName = flight.advertiser?.name || 'Unbekannt';
+          const brochureTitle = flight.name || flight.title || (badge === 'DEMNÄCHST' ? 'Vorschau Prospekt' : 'Aktueller Prospekt');
+
+          return {
+            id: flight.id,
+            storeName,
+            title: brochureTitle,
+            validFrom: fromStr,
+            validTo: toStr,
+            coverImageUrl: `https://cdn.marktguru.de/api/v1/leaflets/${flight.mainLeafletId}/images/pages/${flight.mainLeafletPageIndex || 0}/medium.webp`,
+            badge,
+            badgeColor,
+            pages,
+          };
+        });
+
       setBrochures(mapped);
     } catch (e) {
-      console.error(e);
+      console.error('Fehler beim Laden der Prospekte:', e);
     } finally {
       setIsLoading(false);
       setIsRefreshing(false);
@@ -131,7 +137,7 @@ export default function BrochuresScreen() {
 
   useEffect(() => {
     fetchBrochures();
-  }, []);
+  }, [userZipCode]);
 
   const handleRefresh = () => {
     fetchBrochures(true);
@@ -166,8 +172,18 @@ export default function BrochuresScreen() {
     return l;
   };
 
+  const SUPPORTED_STORES = ['lidl', 'aldi', 'penny', 'kaufland', 'netto'];
+
   const filteredBrochures = brochures.filter((b) => {
     const slug = getStoreSlug(b.storeName);
+    // Limit to our 5 supported supermarket brands
+    if (!SUPPORTED_STORES.includes(slug)) return false;
+
+    // Exclude travel brochures (e.g. Penny Reisen)
+    const titleLower = (b.title || '').toLowerCase();
+    const storeLower = (b.storeName || '').toLowerCase();
+    if (storeLower.includes('reisen') || titleLower.includes('reisen')) return false;
+
     if (showOnlyFavorites && !favoriteStores.includes(slug)) return false;
     if (searchQuery.trim().length > 0) {
       if (!b.storeName.toLowerCase().includes(searchQuery.toLowerCase())) return false;
@@ -234,10 +250,27 @@ export default function BrochuresScreen() {
     <SafeAreaView style={styles.container} edges={['top']}>
       <StatusBar barStyle="light-content" backgroundColor="#0B132B" />
 
-      {/* Screen Title */}
+      {/* Screen Title & Standort */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Prospekte</Text>
-        <Text style={styles.headerSubtitle}>Aktuelle Angebote deiner Märkte</Text>
+        <View style={styles.headerTopRow}>
+          <View style={{ flex: 1 }}>
+            <Text style={styles.headerTitle}>Prospekte</Text>
+            <Text style={styles.headerSubtitle}>Aktuelle Prospekte deiner Märkte</Text>
+          </View>
+          <TouchableOpacity
+            style={styles.zipPill}
+            activeOpacity={0.8}
+            onPress={() => {
+              Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              setTempZip(userZipCode || '59329');
+              setIsEditingZip(true);
+            }}
+          >
+            <Ionicons name="location-sharp" size={13} color="#10B981" />
+            <Text style={styles.zipPillText}>{userZipCode || '59329'}</Text>
+            <Ionicons name="pencil" size={10} color="#94A3B8" />
+          </TouchableOpacity>
+        </View>
 
         {/* Search Bar & Global Favorite Filter */}
         <View style={styles.searchRow}>
@@ -366,6 +399,58 @@ export default function BrochuresScreen() {
           </SafeAreaView>
         )}
       </Modal>
+
+      {/* PLZ Standort anpassen Modal */}
+      <Modal visible={isEditingZip} transparent animationType="fade">
+        <View style={styles.zipModalOverlay}>
+          <View style={styles.zipModalContent}>
+            <View style={styles.zipModalHeader}>
+              <View style={styles.zipIconCircle}>
+                <Ionicons name="location" size={24} color="#10B981" />
+              </View>
+              <Text style={styles.zipModalTitle}>Standort anpassen</Text>
+              <Text style={styles.zipModalSubtitle}>
+                Gib deine Postleitzahl ein, um deine lokalen Prospekte (z.B. ALDI NORD / SÜD) zu laden.
+              </Text>
+            </View>
+
+            <TextInput
+              style={styles.zipModalInput}
+              value={tempZip}
+              onChangeText={setTempZip}
+              keyboardType="numeric"
+              maxLength={5}
+              placeholder="z.B. 59329"
+              placeholderTextColor="#64748B"
+              autoFocus
+            />
+
+            <View style={styles.zipModalButtons}>
+              <TouchableOpacity
+                style={styles.zipModalCancelBtn}
+                onPress={() => setIsEditingZip(false)}
+              >
+                <Text style={styles.zipModalCancelText}>Abbrechen</Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={styles.zipModalSaveBtn}
+                onPress={() => {
+                  const cleaned = tempZip.trim();
+                  if (cleaned.length === 5) {
+                    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
+                    setUserZipCode(cleaned);
+                    setIsEditingZip(false);
+                  } else {
+                    Alert.alert('Ungültige PLZ', 'Bitte gib eine 5-stellige deutsche Postleitzahl ein.');
+                  }
+                }}
+              >
+                <Text style={styles.zipModalSaveText}>Speichern</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -380,6 +465,11 @@ const styles = StyleSheet.create({
     paddingTop: 12,
     paddingBottom: 8,
   },
+  headerTopRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
   headerTitle: {
     fontSize: 24,
     fontWeight: '800',
@@ -390,6 +480,22 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: '#94A3B8',
     marginTop: 2,
+  },
+  zipPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 5,
+    backgroundColor: '#1C2541',
+    borderWidth: 1,
+    borderColor: '#2A3656',
+    borderRadius: 16,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+  },
+  zipPillText: {
+    color: '#E2E8F0',
+    fontSize: 12,
+    fontWeight: '700',
   },
   searchRow: {
     flexDirection: 'row',
@@ -573,5 +679,93 @@ const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: '600',
     letterSpacing: 0.2,
+  },
+  zipModalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.75)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 24,
+  },
+  zipModalContent: {
+    width: '100%',
+    maxWidth: 340,
+    backgroundColor: '#1E293B',
+    borderRadius: 20,
+    padding: 24,
+    borderWidth: 1,
+    borderColor: '#334155',
+    alignItems: 'center',
+  },
+  zipModalHeader: {
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  zipIconCircle: {
+    width: 52,
+    height: 52,
+    borderRadius: 26,
+    backgroundColor: '#10B98120',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: '#10B98140',
+  },
+  zipModalTitle: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#FFFFFF',
+    marginBottom: 6,
+  },
+  zipModalSubtitle: {
+    fontSize: 13,
+    color: '#94A3B8',
+    textAlign: 'center',
+    lineHeight: 18,
+  },
+  zipModalInput: {
+    width: '100%',
+    backgroundColor: '#0F172A',
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#38BDF8',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    fontSize: 22,
+    fontWeight: '700',
+    color: '#FFFFFF',
+    textAlign: 'center',
+    letterSpacing: 4,
+    marginBottom: 20,
+  },
+  zipModalButtons: {
+    flexDirection: 'row',
+    gap: 12,
+    width: '100%',
+  },
+  zipModalCancelBtn: {
+    flex: 1,
+    paddingVertical: 12,
+    borderRadius: 12,
+    backgroundColor: '#334155',
+    alignItems: 'center',
+  },
+  zipModalCancelText: {
+    color: '#94A3B8',
+    fontWeight: '600',
+    fontSize: 14,
+  },
+  zipModalSaveBtn: {
+    flex: 1,
+    paddingVertical: 12,
+    borderRadius: 12,
+    backgroundColor: '#10B981',
+    alignItems: 'center',
+  },
+  zipModalSaveText: {
+    color: '#FFFFFF',
+    fontWeight: '700',
+    fontSize: 14,
   },
 });

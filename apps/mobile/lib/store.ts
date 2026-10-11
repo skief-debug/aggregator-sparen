@@ -88,6 +88,10 @@ type SparGatorStore = {
   // Favorites
   favoriteStores: string[];
   toggleFavoriteStore: (storeName: string) => void;
+
+  // Location / Postleitzahl
+  userZipCode: string;
+  setUserZipCode: (zip: string) => void;
 };
 
 // Build Supabase query with active filters applied server-side
@@ -337,6 +341,10 @@ export const useSparGatorStore = create<SparGatorStore>()(
               : [...state.favoriteStores, storeName],
           };
         }),
+
+      // Location / Postleitzahl (Default: 59329 Wadersloh)
+      userZipCode: '59329',
+      setUserZipCode: (zip) => set({ userZipCode: zip }),
     }),
     {
       name: 'spargator-store',

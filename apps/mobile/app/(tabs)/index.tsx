@@ -460,7 +460,7 @@ export default function MainHomeScreen() {
   // ✅ renderItem ist stabil dank useCallback + savedIds aus useMemo
   const listData = useMemo(() => {
     const rows = [];
-    let currentCategory = null;
+    let currentCategory: string | null = null;
     let currentRow: Deal[] = [];
 
     deals.forEach((deal) => {

@@ -1,11 +1,13 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import Constants from 'expo-constants';
 import { Colors, Spacing, Radius, Typography, Shadows } from '@/constants/Colors';
 import { useSparGatorStore } from '@/lib/store';
 
 export default function SettingsScreen() {
-  const { resetFilters } = useSparGatorStore();
+  const { resetFilters, userZipCode } = useSparGatorStore();
+  const appVersion = Constants.expoConfig?.version || '1.0.8';
 
   return (
     <SafeAreaView style={styles.container} edges={['left', 'right', 'bottom']}>
@@ -17,12 +19,17 @@ export default function SettingsScreen() {
         <View style={styles.card}>
           <View style={styles.infoRow}>
             <Text style={styles.infoLabel}>Version</Text>
-            <Text style={styles.infoValue}>1.0.0 MVP</Text>
+            <Text style={styles.infoValue}>v{appVersion}</Text>
           </View>
           <View style={styles.divider} />
           <View style={styles.infoRow}>
-            <Text style={styles.infoLabel}>Datenquelle</Text>
-            <Text style={styles.infoValue}>Live-Datenbank</Text>
+            <Text style={styles.infoLabel}>Standort (PLZ)</Text>
+            <Text style={styles.infoValue}>{userZipCode || '59329'} (Wadersloh)</Text>
+          </View>
+          <View style={styles.divider} />
+          <View style={styles.infoRow}>
+            <Text style={styles.infoLabel}>Auto-Updater</Text>
+            <Text style={styles.infoValue}>Aktiviert (GitHub)</Text>
           </View>
           <View style={styles.divider} />
           <View style={styles.infoRow}>
