@@ -111,10 +111,25 @@ function scheduleFetch(fn: () => void, delay = 200) {
 function buildDealsQuery(filters: FilterState, withCount = false) {
   let q = supabase
     .from('deals_with_store')
-    .select(DEAL_COLUMNS, withCount ? { count: 'exact' } : undefined)
-    .order('category_order', { ascending: true })
-    .order('timing_tag', { ascending: true })
-    .order('discount_pct', { ascending: false, nullsFirst: false })
+    .select(DEAL_COLUMNS, withCount ? { count: 'exact' } : undefined);
+
+  // Sorting
+  if (filters.sortBy === 'price_asc') {
+    q = q.order('price', { ascending: true, nullsFirst: false });
+  } else if (filters.sortBy === 'price_desc') {
+    q = q.order('price', { ascending: false, nullsFirst: false });
+  } else {
+    // Default discount_desc:
+    // If "Alle" categories are selected, group by category order first so sections appear cleanly
+    if (!filters.activeCategory || filters.activeCategory === 'Alle') {
+      q = q.order('category_order', { ascending: true });
+    }
+    q = q
+      .order('timing_tag', { ascending: true })
+      .order('discount_pct', { ascending: false, nullsFirst: false });
+  }
+
+  q = q
     .order('valid_from', { ascending: false })
     .order('id', { ascending: true });
 
@@ -370,8 +385,10 @@ export const selectFilteredDeals = (deals: Deal[], filters: FilterState) => {
     if (filters?.hideNonFood && deal.is_non_food) return false;
     if (filters?.hideJunkFood && deal.is_junk_food) return false;
     if (filters?.hideAlcohol && deal.is_alcohol) return false;
-    if (filters?.minDiscountPct && filters.minDiscountPct > 0 && (deal.discount_pct ?? 0) < filters.minDiscountPct) return false;
-    if (filters?.activeTiming && filters.activeTiming !== 'ALLE' && deal.timing_tag !== filters.activeTiming) return false;
+    if (filters?.activeTiming && filters.activeTiming !== 'ALLE') {
+      if (filters.activeTiming === 'MO_SA' && deal.timing_tag !== 'current_week') return false;
+      if (filters.activeTiming === 'SATURDAY_ONLY' && deal.timing_tag !== 'next_week') return false;
+    }
     if (filters?.searchQuery) {
       const terms = filters.searchQuery.toLowerCase().split(/[\s,]+/).map(t => t.trim()).filter(Boolean);
       if (terms.length > 0) {
